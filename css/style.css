@@ -1,0 +1,38 @@
+h1 {text-align: center;}
+
+body {
+background: url("../img/texture.svg") repeat scroll 0% 0% transparent;
+background-color: #eeeeee; 
+ 
+text-align: center;
+font: 1.2em; 
+font-family: 'Roboto Slab', serif;
+width = 100%;
+
+}
+
+
+/*header*/
+.header 		 	{ }
+.header h1 		{ font-size:3em; font-weight: normal;}
+.header h1 img 	{ vertical-align: top; max-width:100%;}
+
+
+/* menu */
+.menu 				{ background:#ffffff;margin:0px auto;}
+.menu .wrapper 		{ background:transparent;}
+.menu ul 				{ margin:0; padding:0;}
+.menu ul li 			{ display:inline-block; font-size:26px;}
+.menu ul li a 				{ color:#187ea4; /*text-shadow: 1px 1px 4px #000; */display:block; text-decoration:none; height:44px; padding:8px 50px; margin:0 10px -10px;}
+.menu ul li a:hover 		{ text-decoration:none; color:#d0d4e3;}
+.menu ul li.current a:hover { color:#fff;}
+
+.about-me { background:url(../img/about.svg) no-repeat left 15px top 10px; }
+.portfolio{ background:url(../img/portfolio.svg) no-repeat left 15px top 10px; }
+.contact{ background:url(../img/contact.svg) no-repeat left 15px top 10px; }
+
+/* main */
+.main 				{padding : 50px 100px 100px; color:#5a5a5a;}
+.index-main {background:url(../img/paw-back.svg) no-repeat center; min-height:500px;}
+.contact-main {background:url(../img/contact-back.svg) no-repeat center; min-height:500px;}
+.about-main {background:url(../img/about-back.svg) no-repeat center; min-height:500px;}
